@@ -1,0 +1,141 @@
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+body {
+  	font-family: "Roboto", sans-serif;
+  	-webkit-font-smoothing: antialiased;   
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.smallButton {
+	background-color: #4CAF50;
+  	color: white;
+}
+
+.tdButton {
+	text-align: center;
+	width: 10%;
+}	
+	
+.tdButton a {
+  display: block;
+  color: black;
+  padding: 6px;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.tdButton a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.tdButton a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;    
+}
+
+h4 {
+	margin: 5px 0;
+}
+
+.addForm {		
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+  	background: #f2f2f2;	
+  	width: 100%;
+  	padding: 12px 15px;
+  	margin: 10px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	box-sizing: border-box;  
+}
+
+.searchForm {	
+  	display: inline-flex;
+  	width: 100%;
+}
+
+.labelForSearch {	
+  	margin: 5px 0;
+  	width: 150px;
+  	padding: 14px 0;
+}
+
+.report {
+	width: 70%;	
+}
+
+.titleReport {
+	display: flex;
+	justify-content: space-between;
+}
+
+.rejected{
+    text-decoration: none;
+    color: red;    
+}
+
+.titleOfPage {
+  	display: flex;
+  	flex-direction: row;
+    justify-content: space-between;
+}
+
+#inputNameForSearch {
+	width: 97%;
+}
+
+
+
+
+

@@ -1,0 +1,214 @@
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+body {
+  	font-family: "Roboto", sans-serif;
+  	-webkit-font-smoothing: antialiased;   
+}
+
+.addForm{		
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+  	background: #f2f2f2;	
+  	width: 100%;
+  	padding: 12px 15px;
+  	margin: 10px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	box-sizing: border-box;  
+}
+
+.formOfBirthAndVerified{	
+  	width: 100%;
+  	display: flex;
+}
+
+.formOfBirth{	
+  	width: 30%;
+}
+
+.formOfGroup{	
+  	display: inline-flex;
+  	width: 100%;
+}
+
+.formOfEmail{	
+  	width: 20%;
+}
+
+.formOfPhone{	
+  	width: 80%;
+    margin: 0 0 0 10px;
+}
+
+button, #buttonCancel{
+	font-family: "Roboto", sans-serif;
+  	text-transform: uppercase;
+  	outline: 0;
+  	background: #4CAF50;
+  	width: 300px;
+  	border: 0;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	font-size: 14px;
+  	cursor: pointer;
+}
+
+button:hover, #buttonCancel:hover{
+  	opacity: 0.8;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.smallButton {
+	background-color: #4CAF50;
+  	color: white;
+}
+
+.tdButton {
+	text-align: center;
+	width: 10%;
+}	
+	
+.tdButton a {
+  display: block;
+  color: black;
+  padding: 6px;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.tdButton a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.tdButton a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;    
+}
+
+.enterButton {
+	background-color: #4CAF50;
+  	color: white;
+  	width: 60px;
+  	height: 23px;
+  	padding: 6px;
+ 	font-size: 10px;
+ 	margin: 18px 0 0 10px;
+} 
+
+.formOfSubject{	
+	display: inline-flex;
+  	width: 55%;
+} 
+
+#subjectName {
+	width: 450px;
+}   
+
+.formOfMark{	
+  	width: 75px;
+    margin: 0 0 0 10px;
+} 
+
+#profilePhoto {
+	/*width: 150px;*/
+	display: block;
+    margin: 0 auto;
+    max-width: 150px;    
+    margin: 0 10px 0 0;
+}
+
+.formOfNameAndPhoto{	
+  	display: inline-flex;
+  	width: 100%;
+}
+
+.formOfName{	
+  	display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.formOfFirstName{	
+  	width: 40%;
+  	margin: 0 10px 0 0;
+}
+
+.formOfLastName{	
+  	width: 60%;
+}
+
+.formAverageMark{	
+  	display: inline-flex;
+}
+
+.averageMark{	
+  	margin: auto 0 auto 4px;
+}
+
+.formVerified {
+	margin: 25px 0 0 20px;
+}
+
+#valueVerified {
+	font-family: "Roboto", sans-serif;
+  	background: #f2f2f2;
+  	padding: 12px 15px;	
+}
+
+.titleOfPage {
+  	display: flex;
+  	flex-direction: row;
+    justify-content: space-between;
+}
